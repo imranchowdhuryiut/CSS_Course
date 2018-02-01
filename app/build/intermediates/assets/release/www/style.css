@@ -1,0 +1,116 @@
+body {
+	font-weight: normal; font-size: small; color: #000000; font-style: normal; font-family: Verdana,Tahoma,Helvetica,sans-serif; text-decoration: none;margin: 0px; background-color: #e0d5c5
+}
+
+
+
+td {
+	font-weight: normal; font-size: small; color: #000000; font-style: normal; font-family: Verdana,Tahoma,Helvetica,sans-serif; text-decoration: none;vertical-align: top
+}
+
+tr { vertical-align: top
+	
+}
+
+
+th {
+	font-weight: normal; font-size: small; color: #000000; font-style: normal; font-family: Verdana,Tahoma,Helvetica,sans-serif; text-decoration: none
+}
+
+
+p {
+	padding-right: 5pt; padding-left: 5pt; text-align: justify; color: navy
+}
+
+p.upper {
+	padding-right: 1pt; padding-left: 1pt; text-align: justify
+}
+p.noupper {
+	
+}
+b {
+	font-weight: bold
+}
+
+a {
+	color: #8c6d43; text-decoration: none
+}
+
+a:link {
+	color: #8c6d43; text-decoration: none
+}
+
+a:active {
+	color: #ff0000
+}
+
+a:hover {
+	color: #69c; background-color: #e0d5cf; text-decoration: underline
+}
+
+a:visited {
+	color: #69c
+}
+
+
+h1 {
+	padding-right: 5px; padding-left: 5px; font-weight: bold; font-size: small; padding-bottom: 5px; margin: 5px; padding-top: 5px; background-color: #e0d5c5
+}
+
+
+h2 {
+	padding-right: 5px; padding-left: 5px; font-weight: bold; font-size: small; padding-bottom: 5px; margin: 5px; padding-top: 5px; background-color: #efefef
+}
+
+
+
+li{
+	color: navy
+}
+
+pre{
+	color: navy
+}
+
+
+#navcontainer {
+	margin: 0px; width: 160px; background-color: #fff
+}
+
+#navcontainer ul {
+	padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px; list-style-type: none
+}
+
+#navcontainer li {
+	border-bottom: #000 1px dotted
+}
+
+#navcontainer a {
+	padding-right: 6px; display: block; padding-left: 6px; font-size: small; padding-bottom: 3px; width: 148px; color: #000; padding-top: 3px; background-color: #fff
+; clip:  rect(   )
+}
+
+#navcontainer a:hover {
+	color: #fff; background-color: #69c; text-decoration: none
+}
+
+#navcontainer ul ul {
+	background-color: #e0d5c5
+}
+
+#navcontainer ul ul li {
+	border-TOP: #000000 1px dotted; border-bottom-width: 0px;color:navy
+}
+
+#navcontainer ul ul a {
+	padding-right: 0px; display: block; padding-left: 15px; padding-bottom: 3px; width: 145px; color: #000; padding-top: 3px; background-color: #e0d5c5; text-decoration: none
+; clip:  rect(   )
+}
+
+#navcontainer ul ul a:hover {
+	color: #fff; background-color: #69c; text-decoration: none
+}
+
+#uberlink a {
+	background-color: #69c
+}

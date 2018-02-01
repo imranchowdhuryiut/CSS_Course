@@ -1,0 +1,29 @@
+<?
+function uheader() {
+    $res = mysql_query("select content from html where type='head1'");
+    $hf = mysql_result($res, 0, "content");
+    echo($hf);
+}
+function ufooter() {
+    $res = mysql_query("select content from html where type='foot1'");
+    $hf = mysql_result($res, 0, "content");
+    echo($hf);
+}
+function secheader() {
+    $res = mysql_query("select content from html where type='head2'");
+    $hf = mysql_result($res, 0, "content");
+    echo($hf);
+}
+function secfooter() {
+    $res = mysql_query("select content from html where type='foot2'");
+    $hf = mysql_result($res, 0, "content");
+    echo($hf);
+}
+function tads() {
+    $res = mysql_query("select text from tads order by rand() limit 1");
+    if (mysql_num_rows($res) > 0) {
+        $text = mysql_result($res, 0);
+        echo("<p align=center>$text</p>");
+    }
+}
+?>

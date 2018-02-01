@@ -1,0 +1,4 @@
+#Tue Nov 28 20:24:28 BDT 2017
+base.0=H\:\\Android\\Projects\\Client\\CSS Course\\app\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

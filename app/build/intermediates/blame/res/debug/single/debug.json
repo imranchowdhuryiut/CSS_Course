@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "H:\\Android\\Projects\\Client\\CSS Course\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "H:\\Android\\Projects\\Client\\CSS Course\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\Android\\Projects\\Client\\CSS Course\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "H:\\Android\\Projects\\Client\\CSS Course\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\Android\\Projects\\Client\\CSS Course\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "H:\\Android\\Projects\\Client\\CSS Course\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "H:\\Android\\Projects\\Client\\CSS Course\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "H:\\Android\\Projects\\Client\\CSS Course\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\Android\\Projects\\Client\\CSS Course\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "H:\\Android\\Projects\\Client\\CSS Course\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "H:\\Android\\Projects\\Client\\CSS Course\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "H:\\Android\\Projects\\Client\\CSS Course\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]

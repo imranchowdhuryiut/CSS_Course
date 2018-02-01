@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+	<title>XML Sitemaps RSS Feed</title>
+	<link>http://www.xml-sitemaps.com/</link>
+	<description>My Feed at http://www.xml-sitemaps.com/</description>
+	<lastBuildDate>2014-03-02 04:35:58</lastBuildDate>
+	<pubDate>2014-03-02 04:35:58</pubDate>
+
+<item>
+	<title>Create your Google Sitemap Online - XML Sitemaps Generator</title>
+	<link>http://www.xml-sitemaps.com/</link>
+	<guid>7e44565cc90595ebb01b9da735151792</guid>
+	<description>Create your Google Sitemap Online - XML Sitemaps Generator</description>
+	<pubDate>2014-02-21T00:00:00+00:00</pubDate>
+</item>
+<item>
+	<title>Process keeps stopping.... - Sitemap Generator Forum</title>
+	<link>http://www.xml-sitemaps.com/forum/index.html/topic,8610.html</link>
+	<guid>0d240e5379441fbabe7190c4f4ba4025</guid>
+	<description>Process keeps stopping.... - Sitemap Generator Forum</description>
+	<pubDate>2014-03-02T00:00:00+00:00</pubDate>
+</item>
+<item>
+	<title>x_csize: 0 on HTTP headers - Sitemap Generator Forum</title>
+	<link>http://www.xml-sitemaps.com/forum/index.html/topic,8607.html</link>
+	<guid>478ae46cb8601520c51df7743162c4c5</guid>
+	<description>x_csize: 0 on HTTP headers - Sitemap Generator Forum</description>
+	<pubDate>2014-02-26T00:00:00+00:00</pubDate>
+</item>
+<item>
+	<title>Broken Links - Sitemap Generator Forum</title>
+	<link>http://www.xml-sitemaps.com/forum/index.html/topic,8604.html</link>
+	<guid>c126b2ca506865ffd52388bb1ed25764</guid>
+	<description>Broken Links - Sitemap Generator Forum</description>
+	<pubDate>2014-02-22T00:00:00+00:00</pubDate>
+</item>
+<item>
+	<title>Only main page in sitemap.xml - Sitemap Generator Forum</title>
+	<link>http://www.xml-sitemaps.com/forum/index.html/topic,8605.html</link>
+	<guid>f986ccb178ee72b7d1ec025cdcae60db</guid>
+	<description>Only main page in sitemap.xml - Sitemap Generator Forum</description>
+	<pubDate>2014-02-23T00:00:00+00:00</pubDate>
+</item>
+<item>
+	<title>sitemap generator does not create xml file - Sitemap Generator Forum</title>
+	<link>http://www.xml-sitemaps.com/forum/index.html/topic,8608.html</link>
+	<guid>26a2190015278e620b71dcac950ac654</guid>
+	<description>sitemap generator does not create xml file - Sitemap Generator Forum</description>
+	<pubDate>2014-03-01T00:00:00+00:00</pubDate>
+</item>
+<item>
+	<title>manifest.appcache - Sitemap Generator Forum</title>
+	<link>http://www.xml-sitemaps.com/forum/index.html/topic,8606.html</link>
+	<guid>c080eee4c14e4ee107aca11caefc88cd</guid>
+	<description>manifest.appcache - Sitemap Generator Forum</description>
+	<pubDate>2014-02-25T00:00:00+00:00</pubDate>
+</item>
+</channel>
+</rss>

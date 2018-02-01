@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Volumes/justetc_software/justetc-new-cloud-sites/justetc-android-app/pmp-project-management-app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="74ca15545581efc33fc3398d5b650d9009d97ce1">
+        <dex dex="/Volumes/justetc_software/justetc-new-cloud-sites/justetc-android-app/pmp-project-management-app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ce3a13cea5d0dbb07f82c84c458f5ffe6e8f8395/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/justetc_software/justetc-new-cloud-sites/justetc-android-app/pmp-project-management-app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Volumes/justetc_software/justetc-new-cloud-sites/justetc-android-app/pmp-project-management-app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9823b7f26e580f59ca0c124ceaf4863561443938/classes.dex" />
+    </item>
+
+</items>

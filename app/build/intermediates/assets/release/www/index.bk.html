@@ -1,0 +1,329 @@
+<?php
+
+    if ( $_GET['isCampaign'] != "1" ) {
+        //error_reporting(1);
+        //require_once 'geo.html';
+    }
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Justetc (Just Et Cetera) consulting Home: Software and Web Development, Toronto, Ontario, Canada</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="IT Consulting, IT Training, Website Development">
+        <meta name="author" content="Justetc Technologies">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/justetc.css">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Le styles -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/script.js"></script>
+
+        <!--[if lt IE 8]>
+        <div style=' clear: both; text-align:center; position: relative;'>
+            <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+                <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+            </a>
+        </div>
+        <![endif]-->
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+        <![endif]-->
+
+
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <meta name="description" content="Home Page: Justetc (Just Et Cetera) Technologies: IT Consulting, Software and Web development">
+    </head>
+
+    <body>
+        <!--==============================header=================================-->
+        <div class="bg">
+            <div class="header">
+                <header>
+                    <div class="logo">
+                        <div><h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1></div>
+                        <div class="navbar navbar-fixed-top" id="responseNavBar">
+                            <div class="navbar-inner" style='background:#FFFFFF;'>
+                                <div class="container-fluid"><a class="btn btn-navbar" data-toggle="collapse"
+                                                                data-target=".nav-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+                                    <div class="nav-collapse">
+                                        <ul class="nav" style='background:#2c2c2c'>
+                                            <li class="current"><a href="index.html">Home</a>
+                                                <ul>
+                                                    <li><a href="index.html#whoWeAre">Who We Are</a></li>
+                                                    <li><a href="index.html#latestNews">Latest News</a></li>
+                                                    <li><a href="career.html">Career</a></li>
+                                                    <li><a href="contact.html">Contacts</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="about_us.html">About</a>
+                                                <ul>
+                                                    <li><a href="about_us.html">About Us</a></li>
+                                                    <li><a href="http://blog.justetc.net">Blog</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="services.html">Services & Products</a>
+                                                <ul>
+                                                    <!--                                                <li> <a href='domain.html'>Domain Registration</a></li>                                            -->
+                                                    <li><a href='http://visitorsshop.com/' target="_blank">Buy Visitors</a></li>
+                                                    <!--                                            <li> <a href='http://flyeremailer.com/' target="_blank">Email Marketing</a></li>-->
+
+                                                    <li><a href='products.html'>Products</a></li>
+                                                    <li><a href='seo_package.html'>Search Engine Optimization</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="platform.html">Platforms</a></li>
+                                            <li><a href="projects.html">Projects</a></li>
+                                            <li><a href="opportunities.html">Opportunities</a></li>
+                                            <li><a href="contact.html">Contacts</a></li>
+                                            <!--<li><a href="career.html">Career</a></li>-->
+                                            <li><a href="http://blog.justetc.net">Blog</a></li>
+                                        </ul>
+                                    </div><!--/.nav-collapse -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav>
+                        <ul class="sf-menu" id="actualNavBar">
+                            <li class="current"><a href="index.html">Home</a>
+                                <ul>
+                                    <li><a href="index.html#whoWeAre">Who We Are</a></li>
+                                    <li><a href="index.html#latestNews">Latest News</a></li>
+                                    <li><a href="career.html">Career</a></li>
+                                    <li><a href="contact.html">Contacts</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about_us.html">About</a>
+                                <ul>
+                                    <li><a href="about_us.html">About Us</a></li>
+                                    <li><a href="http://blog.justetc.net">Blog</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="services.html">Services & Products </a>
+                                <ul>                            <!--<li> <a href='domain.html'>Domain Registration</a></li>-->
+                                    <li><a href='http://visitorsshop.com/' target="_blank">Buy Visitors</a></li>
+                                    <!--                                                            <li> <a href='http://flyeremailer.com/' target="_blank">Email Marketing</a></li>                             -->
+                                    <li><a href='products.html'>Products</a></li>
+                                    <li><a href='seo_package.html'>Search Engine Optimization</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="platform.html">Platforms</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="opportunities.html">Opportunities</a></li>
+                            <li><a href="contact.html">Contacts</a></li>
+                            <!--<li><a href="career.html">Career</a></li>-->
+                            <!--<li><a href="http://blog.justetc.net">Blog</a></li>-->
+                        </ul>
+                    </nav>
+                    <div class="clear"></div>
+                </header>
+            </div>
+        </div>
+        <!--==============================content================================-->
+
+        <section id="content">
+            <div class="slider">
+                <ul class="items">
+                    <li><img src="images/slider-1.jpg" alt="reliable software development"><div class="banner"><p>Our Best Propositions </p><p>&nbsp;for <strong>you</strong>!</p></div></li>
+                    <li><img src="images/slider-2.jpg" alt="customer focus software and web development"><div class="banner"><p>Honesty. Integrity. Competence.</p><p>Clients choose <strong>us</strong></p></div></li>
+                    <li><img src="images/slider-3.jpg" alt="Creative solutions. Proven expertise.Succeed with us"><div class="banner"><p>Creative solutions. Proven expertise.</p><p>Succeed with <strong>us</strong>!</p></div></li>
+                    <li><img src="images/slider-4.jpg" alt="we are your reliable business partner"><div class="banner"><p>Give <strong>us</strong> a chance </p><p>and <strong>we</strong> will prove our efficiency!</p></div></li>
+                </ul>
+
+                <div class="pagination">
+                    <ul>
+                        <li><a href="#" rel="nofollow"></a></li>
+                        <li><a href="#" rel="nofollow"></a></li>
+                        <li><a href="#" rel="nofollow"></a></li>
+                        <li><a href="#" rel="nofollow"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box-row wrap">
+                <div class="box">
+                    <a href="experience.html" class="box-1"><strong>Experience</strong></a>
+                </div>
+
+                <div class="box">
+                    <a href="projects.html" class="box-2"><strong>Productivity</strong></a>
+                </div>
+
+                <div class="box">
+                    <a href="solutions.html" class="box-3"><strong>Solutions</strong></a>
+                </div>
+
+                <div class="box">
+                    <a href="platform.html" class="box-4"><strong>Platforms</strong></a>
+                </div>
+            </div>
+
+            <div class="container_24">
+                <div class="grid_6">
+                    <h3 class="top-1 p2">Why Choose Us?</h3>
+                    <p style='align:justify'>
+                        We acknowledge each organization's uniqueness and unique needs. We focus on understanding our clients' businesses and utilize that insight into the design, architecture, implementation, and support of every solution.
+                    </p>
+                    <!--a href="#" class="button top-2">more</a-->
+                </div>
+
+                <div class="grid_6">
+                    <h3 class="top-1 p2">What We Offer?</h3>
+                    <ul>
+                        <li> Wide industry expertise</li>
+                        <li> Diversified platform support</li>
+                        <li> Flexible and adaptive services</li>
+                        <li> Guaranteed customer satisfaction</li>
+                        <li> Trust and relationship</li>
+                    </ul>
+                    <!--a href="#" class="button top-2">more</a-->
+                </div>
+                <div class="grid_6">
+                    <h3 class="top-1 p2">Our Team</h3>
+                    <p>
+                        We have access to technical and business resources in Canada and overseas. We can provide software solutions to your toughest business problems as well as your complex scientific and engineering applications.
+                    </p>
+                    <!--a href="#" class="button top-2">more</a-->
+                </div>
+
+                <div class="grid_6">
+                    <h3 class="top-1 p2">Featured Services</h3>
+                    <p>IT Consulting</p>
+                    <p>Software and Web Development</p>
+                    <p>Mobile & Embedded Development</p>
+                    <p>IT Training</p>
+                    <p>Online Marketing</p>
+                    <!--a href="#" class="button top-2">more</a-->
+                </div>
+
+                <div class="grid_24 line pad-1"></div>
+                <div class="grid_11">
+                    <a id="whoWeAre"><h2 class="p3">Who We Are</h2></a>
+                    <img src="images/page-1-img-1.jpg" alt="">
+                    <br/><br/>
+                    <p>Just E.T.C (Just et cetera) Technologies is a Canadian company based in Toronto, Ontario. We offer high quality IT consulting services, and Custom Software and Web Application Development services.</p>
+                    <br/>
+
+                    <p>We acknowledge each organization's uniqueness and needs. We focus on understanding our clients' businesses and utilize that insight into the design, implementation and support of every solution.</p>
+                    <br/>
+
+                    <p>We provide computer technology professionals on a contract basis.</p>
+                    <br/>
+                </div>
+
+                <div class="grid_12 prefix_1">
+                    <a id="latestNews"><h2 class="p4">Latest News</h2></a>
+                    <!--
+                        <div class="wrap date">
+                            <div class="date-text">02/10</div>
+                            <div class="extra-wrap">
+                                    <a href="#" class="color-1">Launched facebook application</a>
+                                    <p class="font-13 top-4">We helped PlayAndScore team to develop a face book application and make the application alive. Check the application at: <a href='http://apps.facebook.com/playandscores/'>PlayAndScore Facebook Application</a></p>
+                            </div>
+                        </div>
+                    -->
+                    <div class="wrap date top-5">
+                        <div class="date-text">08/23</div>
+                        <div class="extra-wrap">
+                            <a href="http://www.youtube.com/channel/UCHrtq0pV8mEuTLGd2-Lp9ig/videos?view_as=public" class="color-4">Our YouTube channel on IT & Software Development education</a>
+                            <p class="font-13 top-4">Academic and Professional Courses</p>
+                        </div>
+                    </div>
+                    <div class="wrap date top-5">
+                        <div class="date-text">03/14</div>
+                        <div class="extra-wrap">
+                            <a href="http://bangla.saLearningSchool.com" class="color-4">Free Training and Education in Bengali Language</a>
+                            <p class="font-13 top-4">Academic and Professional Courses. Any topics, any subjects</p>
+                        </div>
+                    </div>
+
+                    <div class="wrap date top-5">
+                        <div class="date-text">03/14</div>
+                        <div class="extra-wrap">
+                            <a href="http://www.shopforsoul.com" class="color-4">Online Store: Popular China electronics</a>
+                            <p class="font-13 top-4">Android phones, car rearview mirrors, GPS, video players, ebook readers, and car accessories</p>
+                        </div>
+                    </div>
+                    <!--a href="#" class="button top-2">more</a-->
+                </div>
+
+                <div class="grid_24 banners">
+                    <a href="#" rel="nofollow" class="banner-1"></a>
+                    <a href="#" rel="nofollow" class="banner-2"></a>
+                    <a href="#" rel="nofollow" class="banner-3"></a>
+                    <a href="#" rel="nofollow" class="banner-4"></a>
+                    <a href="#" rel="nofollow" class="banner-5 last"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <!--==============================footer=================================-->
+        <footer>
+            <div class="container_24">
+                <div class="grid_14">
+                    <div class="center">
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- bangla_salearn_responsive -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-2628850511586375"
+                             data-ad-slot="3926500449"
+                             data-ad-format="auto"></ins>
+                        <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+                    </div>
+                    <a href="index.html"><img src="images/footer-logo.png" alt=""></a>
+                    <p class="font-13"><span>Phone: +1 647 624 8509</span>  E-mail: <a href="mailto:sayed@justetc.com?subject=Contact from justetc.net" class="color-2">sayed at justetc dot com</a></p>
+                    <p class="font-11">&copy; 2004 - 2016 : <a href="#" rel="nofollow" class="color-2">PRIVACY POLICY</a><!-- {%FOOTER_LINK} --></p>
+                </div>
+                <div class="grid_6 prefix_4">
+                    <p><span>Connect With Us</span><a href="https://www.facebook.com/JustETC" class="tooltips"><img src="images/icon-1.jpg" alt=""></a><a href="https://twitter.com/sayedjustetc" class="tooltips"><img src="images/icon-2.jpg" alt=""></a><a href="http://www.linkedin.com/company/justetc-technologies-inc" class="tooltips"><img src="images/icon-3.jpg" alt=""></a><a href="http://www.linkedin.com/company/justetc-technologies-inc" class="tooltips"><!--img src="images/icon-4.jpg" alt=""></a--></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+
+            <script src="js/jquery.js"></script>
+            <script src="js/bootstrap-collapse.js"></script>
+
+
+
+            <!--
+
+                <script src="js/jquery.js"></script>
+                <script src="js/bootstrap-transition.js"></script>
+                <script src="js/bootstrap-alert.js"></script>
+                <script src="js/bootstrap-modal.js"></script>
+                <script src="js/bootstrap-dropdown.js"></script>
+                <script src="js/bootstrap-scrollspy.js"></script>
+                <script src="js/bootstrap-tab.js"></script>
+                <script src="js/bootstrap-tooltip.js"></script>
+                <script src="js/bootstrap-popover.js"></script>
+                <script src="js/bootstrap-button.js"></script>
+                <script src="js/bootstrap-collapse.js"></script>
+                <script src="js/bootstrap-carousel.js"></script>
+                <script src="js/bootstrap-typeahead.js"></script>
+            -->
+        </footer>
+    </body>
+</html>

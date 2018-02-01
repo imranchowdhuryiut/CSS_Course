@@ -1,0 +1,110 @@
+ <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+ </script>
+
+ <script type="text/javascript">
+   _uacct = "UA-543599-1";
+   urchinTracker();
+ </script>
+
+ <script>
+
+
+
+ //specify page to pop-under
+ var popunder="http://justetc.net/knowledge/subscriptionService.html"
+
+ //specify popunder window features
+ //set 1 to enable a particular feature, 0 to disable
+ var winfeatures="width=1024,height=768,scrollbars=1,resizable=1,toolbar=1,location=1,menubar=1,status=1,directories=0"
+
+ //Pop-under only once per browser session? (0=no, 1=yes)
+ //Specifying 0 will cause popunder to load every time page is loaded
+ var once_per_session=1
+
+ ///No editing beyond here required/////
+
+ function get_cookie(Name) {
+   var search = Name + "="
+   var returnvalue = "";
+   if (document.cookie.length > 0) {
+     offset = document.cookie.indexOf(search)
+     if (offset != -1) { // if cookie exists
+       offset += search.length
+       // set index of beginning of value
+       end = document.cookie.indexOf(";", offset);
+       // set index of end of cookie value
+       if (end == -1)
+          end = document.cookie.length;
+       returnvalue=unescape(document.cookie.substring(offset, end))
+       }
+    }
+   return returnvalue;
+ }
+
+ function loadornot(){
+ if (get_cookie('popunder')==''){
+ loadpopunder()
+ document.cookie="popunder=yes"
+ }
+ }
+
+ function loadpopunder(){
+ win2=window.open(popunder,"",winfeatures)
+ win2.blur()
+ window.focus()
+ }
+
+ if (once_per_session==0)
+ loadpopunder()
+ else
+ loadornot()
+
+</script>
+
+
+<?php
+// $Id: index.html,v 1.94 2007/12/26 08:46:48 dries Exp $
+
+/**
+ * @file
+ * The PHP page that serves all page requests on a Drupal installation.
+ *
+ * The routines here dispatch control to the appropriate handler, which then
+ * prints the appropriate page.
+ *
+ * All Drupal code is released under the GNU General Public License.
+ * See COPYRIGHT.txt and LICENSE.txt.
+ */
+
+
+
+
+require_once './includes/bootstrap.inc';
+drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
+
+$return = menu_execute_active_handler();
+
+// Menu status constants are integers; page content is a string.
+if (is_int($return)) {
+  switch ($return) {
+    case MENU_NOT_FOUND:
+      drupal_not_found();
+      break;
+    case MENU_ACCESS_DENIED:
+      drupal_access_denied();
+      break;
+    case MENU_SITE_OFFLINE:
+      drupal_site_offline();
+      break;
+  }
+}
+elseif (isset($return)) {
+  // Print any value (including an empty string) except NULL or undefined:
+  print theme('page', $return);
+}
+
+drupal_page_footer();
+
+
+
+

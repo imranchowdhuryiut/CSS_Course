@@ -1,0 +1,53 @@
+<script language='javascript'>
+
+	tStart   = new Date();
+	timerID  = setTimeout('UpdateTimer()', 6000);
+
+	function UpdateTimer() 
+	{
+	   if(timerID) {
+	      clearTimeout(timerID);
+	      clockID  = 0;
+	   }
+
+	   if(!tStart)
+	      tStart   = new Date();
+
+	   var   tDate = new Date();
+	   var   tDiff = tDate.getTime() - tStart.getTime();
+
+	   tDate.setTime(tDiff);
+
+		
+		 timerID = setTimeout('UpdateTimer()', 6000);
+		 document.xf.location="rotate.html";
+	  
+	}
+
+	function Stop() {
+	   if(timerID) {
+	      clearTimeout(timerID);
+	      timerID  = 0;
+	   }
+	   tStart = null;
+	}
+
+	function Reset() 
+	{
+	   tStart = null;
+	   id=1;
+	}
+</script>
+<iframe name='xf' width='468' height='60' FRAMEBORDER='0' hspace="0"  vspace="0" scrolling="no" marginheight="0" marginwidth="0" style="background-image:url(/titleback.gif)">
+</iframe>
+	
+
+
+
+
+
+
+
+
+
+

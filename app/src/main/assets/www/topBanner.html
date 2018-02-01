@@ -1,0 +1,56 @@
+<!--<iframe name='xf' src='topBanner/first.html' width='728' height='90' FRAMEBORDER='0' hspace="0"  vspace="0" scrolling="no" marginheight="0" marginwidth="0">
+</iframe>-->
+
+<script language='javascript'>
+
+	tStart   = new Date();
+	timerID  = setTimeout('UpdateTimer()', 2000000);
+	var ppcStep=0;
+
+	function UpdateTimer()
+	{
+	   if(timerID) {
+	      clearTimeout(timerID);
+	      clockID  = 0;
+	   }
+
+	   if(!tStart)
+	      tStart   = new Date();
+
+	   var   tDate = new Date();
+	   var   tDiff = tDate.getTime() - tStart.getTime();
+
+	   tDate.setTime(tDiff);
+
+
+		 timerID = setTimeout('UpdateTimer()', 2000000);
+		 document.xf.location="rotateTopBanner.html";
+		 document.leftBanner.location="rotateLeftBanner.html";
+		 document.rightBanner.location="rotateRightBanner.html";
+	}
+
+	function Stop() {
+	   if(timerID) {
+	      clearTimeout(timerID);
+	      timerID  = 0;
+	   }
+	   tStart = null;
+	}
+
+	function Reset()
+	{
+	   tStart = null;
+	   id=1;
+	}
+</script>
+
+
+
+
+
+
+
+
+
+
+

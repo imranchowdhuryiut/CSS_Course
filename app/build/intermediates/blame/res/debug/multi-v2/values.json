@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "H:\\Android\\Projects\\Client\\CSS Course\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "H:\\Android\\Projects\\Client\\CSS Course\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "49",
+                        "endOffsets": "62"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    }
+                },
+                {
+                    "source": "H:\\Android\\Projects\\Client\\CSS Course\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "56,113,167",
+                        "endColumns": "56,53,56",
+                        "endOffsets": "108,162,219"
+                    },
+                    "to": {
+                        "startLines": "4,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "282,339,393",
+                        "endColumns": "56,53,56",
+                        "endOffsets": "334,388,445"
+                    }
+                },
+                {
+                    "source": "H:\\Android\\Projects\\Client\\CSS Course\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "9,17,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "392,721,55",
+                        "endLines": "15,17,7",
+                        "endColumns": "12,36,12",
+                        "endOffsets": "715,753,386"
+                    },
+                    "to": {
+                        "startLines": "7,14,15",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "450,778,814",
+                        "endLines": "13,14,20",
+                        "endColumns": "12,35,12",
+                        "endOffsets": "773,809,1145"
+                    }
+                }
+            ]
+        }
+    ]
+}
